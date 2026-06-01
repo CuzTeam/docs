@@ -21,14 +21,14 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "anchor": "Cuz AI API",
+          "icon": "rectangle-api",
+          "href": "https://ai.cuz-lab.space"
         },
         {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "anchor": "Uptime",
+          "icon": "internet-explorer",
+          "href": "https://up.c0ffee.space/status"
         }
       ]
     },
