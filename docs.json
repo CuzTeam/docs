@@ -31,7 +31,24 @@
           "icon": "newspaper"
         }
       ]
-    }
+    },
+    "groups": [
+      {
+        "group": "社区",
+        "pages": [
+          "index",
+          "group-rules"
+        ]
+      },
+      {
+        "group": "Cuz AI",
+        "pages": [
+          "cuz-ai-welcome",
+          "cuz-ai-login",
+          "cuz-ai-tos"
+        ]
+      }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
