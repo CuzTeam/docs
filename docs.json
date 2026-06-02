@@ -22,7 +22,8 @@
         "pages": [
           "cuz-ai/cuz-ai-welcome",
           "cuz-ai/cuz-ai-login",
-          "cuz-ai/cuz-ai-tos"
+          "cuz-ai/cuz-ai-tos",
+          "cuz-ai/api"
         ]
       }
     ],
