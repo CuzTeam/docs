@@ -9,12 +9,20 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "pages": [
+    "groups": [
       {
-        "group": "Getting Started",
+        "group": "社区",
         "pages": [
-          "index",
-          "quickstart"
+          "group/index",
+          "group/group-rules"
+        ]
+      },
+      {
+        "group": "Cuz AI",
+        "pages": [
+          "cuz-ai/cuz-ai-welcome",
+          "cuz-ai/cuz-ai-login",
+          "cuz-ai/cuz-ai-tos"
         ]
       }
     ],
@@ -31,25 +39,14 @@
           "href": "https://up.c0ffee.space/status"
         }
       ]
-    },
-    "groups": [
-      {
-        "group": "社区",
-        "pages": [
-          "index",
-          "group-rules"
-        ]
-      },
-      {
-        "group": "Cuz AI",
-        "pages": [
-          "cuz-ai-welcome",
-          "cuz-ai-login",
-          "cuz-ai-tos"
-        ]
-      }
-    ]
+    }
   },
+  "redirects": [
+    { "source": "/group-rules", "destination": "/group/group-rules" },
+    { "source": "/cuz-ai-welcome", "destination": "/cuz-ai/cuz-ai-welcome" },
+    { "source": "/cuz-ai-login", "destination": "/cuz-ai/cuz-ai-login" },
+    { "source": "/cuz-ai-tos", "destination": "/cuz-ai/cuz-ai-tos" }
+  ],
   "logo": {
     "light": "/logo/light.svg",
     "dark": "/logo/dark.svg"
@@ -58,13 +55,13 @@
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:hi@amethyst.ltd"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://app.mintlify.com"
+      "label": "DCuz AI",
+      "href": "https://ai.cuz-lab.space"
     }
   },
   "contextual": {
