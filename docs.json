@@ -7,7 +7,7 @@
     "light": "#07C983",
     "dark": "#15803D"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "https://source.starrysky.ggff.net/ame-assets/cuz-icon.svg",
   "navigation": {
     "groups": [
       {
@@ -48,8 +48,8 @@
     { "source": "/cuz-ai-tos", "destination": "/cuz-ai/cuz-ai-tos" }
   ],
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "https://source.starrysky.ggff.net/ame-assets/Help-Center.svg",
+    "dark": "https://source.starrysky.ggff.net/ame-assets/Help-Center.svg"
   },
   "navbar": {
     "links": [
