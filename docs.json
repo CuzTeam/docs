@@ -24,6 +24,12 @@
           "cuz-ai/cuz-ai-login",
           "cuz-ai/cuz-ai-tos"
         ]
+      },
+      {
+        "group": "其他",
+        "pages": [
+          "others/channels-notebook"
+        ]
       }
     ],
     "global": {
